@@ -126,7 +126,7 @@ Blockly.Blocks['line_sensor_read_all'] = {
 };
 
 Blockly.Python["line_sensor_read_all"] = function (block) {
-  Blockly.Python.definitions_['import_line_sensor1'] = 'from line_sensor import *';
+  Blockly.Python.definitions_['import_line_sensor1'] = 'from line_sensor_dual import *';
   Blockly.Python.definitions_['create_line_sensor1'] = 'line_sensor1 = LineSensorI2C()';
   var S1 = block.getFieldValue("S1");
   var S2 = block.getFieldValue("S2");
@@ -174,7 +174,7 @@ Blockly.Blocks['line_sensor_read_single'] = {
 };
 
 Blockly.Python["line_sensor_read_single"] = function (block) {
-  Blockly.Python.definitions_['import_line_sensor1'] = 'from line_sensor import *';
+  Blockly.Python.definitions_['import_line_sensor1'] = 'from line_sensor_dual import *';
   Blockly.Python.definitions_['create_line_sensor1'] = 'line_sensor1 = LineSensorI2C()';
   var pin = block.getFieldValue("pin");
   // TODO: Assemble Python into code variable.

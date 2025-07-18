@@ -4,7 +4,7 @@
     "libs": [
         "pcf8574_dual.py",
         "stm32_line.py",
-        "line_sensor.py",
+        "line_sensor_dual.py",
         "line_sensor_stm.py"
     ],
     "blocks": [
