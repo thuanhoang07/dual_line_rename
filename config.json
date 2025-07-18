@@ -2,7 +2,7 @@
     "name": "DUAL LINE SENSOR",
     "description": "Mục mở rộng dùng 2 cảm biến dò đường 4 mắt",
     "libs": [
-        "pcf8574.py",
+        "pcf8574_dual.py",
         "stm32_line.py",
         "line_sensor.py",
         "line_sensor_stm.py"
